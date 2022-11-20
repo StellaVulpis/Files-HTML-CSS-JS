@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv = "X-UA-Compatible"
+        content = "IE-Edge">
+    </head>
+    <body>
+        <canvas id = "TestCanvas" style = "border: 2px solid black">
+            Current browser doesn't support canvas tag.
+        </canvas>
+        <script>
+            var canvas = document.getElementById ("TestCanvas");
+            var context00 = canvas.getContext("2d");
+            var context01 = canvas.getContext("2d");
+            context00.fillStyle = "#a8fffe";
+            context00.fillRect(0, 0, 150, 150);
+            context01.fillStyle = "red";
+            context01.fillRect(151, 0, 200, 200);
+        </script>
+    </body>
+</html>

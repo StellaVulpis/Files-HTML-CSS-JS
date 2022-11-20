@@ -1,0 +1,25 @@
+<html lang = "ko">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible"
+        content = "IE-Edge">
+        <title>Print text with JS</title>
+    </head>
+    <body>
+        <p id = "line01"></p>
+        <p id = "line02"></p>
+        <p id = "line03"></p>
+        <script>
+            function print()
+            {
+                var id01 = document.getElementById('line01');
+                var id02 = document.getElementById('line02');
+                var id03 = document.getElementById('line03');
+                id01.innerHTML = "문장 첫번째";
+                id02.innerHTML = "문장 두번째";
+                id03.innerHTML = "문장 세번째";
+            }
+            print();
+        </script>
+    </body>
+</html>

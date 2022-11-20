@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <!-- 글자 주석 [Ctrl] + [?/]-->
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE-edge">
+        <meta name = "viewport" content = "width = device - width, initial - scale=1.0">
+        <title>Document</title>
+        <!-- <style></style> 안은 c나 java와 같이 주석은 /**/ 로, 문장의 끝엔 세미콜론을 붙인다 -->
+        <style> 
+        table, th, td        
+        {
+            border: 2px solid rgb(221, 26, 26);
+            border-collapse: collapse; /*== 경계를 어떻게 할 지 결정함; collapse 하면 서로 붙음 ==*/
+            text-align: center;
+            border-radius: 10px;
+            border-style: double;
+        }
+        </style>
+    </head>
+    <body>
+        <!-- table, tr, th, td, caption, figure(+figcaption), rowspan, colspan -->
+        <!-- ------------------------------------------------------------------------------------------- -->
+        <!-- <figure> 요소는 독립적인 콘텐츠를 표현합니다. <figcaption> 요소를 사용해 설명을 붙일 수 있습니다. -->
+        <figure>
+            <figcaption>
+                <strong>Test Table</strong>
+                <p>오늘의 표 만들기 예제</p>
+            </figcaption>
+            
+            <table style = "width : 100%">
+            <!-- <caption>
+                <strong>Test Table</strong>
+                <p>오늘의 표 만들기 예제</p>
+            </caption> -->
+               
+                <tr style = "height : 25px">
+                    <th>제목 셀 A</th>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr style = "height : 25px">
+                    <th>제목 셀 B</th>
+                    <td>1</td>
+                    <td rowspan = "2">2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <tr style = "height : 25px">
+                        <th>제목 셀 C</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td colspan = "3">3</td>
+                </tr>
+            </table>
+        </figure>
+    </body>
+</html>

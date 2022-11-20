@@ -1,0 +1,34 @@
+<html lang = "en">
+    <head>
+        <meta http-equiv = "X-UA-Compatible"
+        content = "IE-Edge">
+        <title></title>
+        <style>
+        #player
+        {
+            height: 350px;
+            width: 350px;
+        }
+        </style>
+          <base href = "/storage/emulated/0/Documents/HTML, CSS/Resources(For storing)/">
+    </head>
+    <body>
+      <audio controls>
+          <source src = "Every Breath You Take.mp3" type = "audio/mpeg">
+          Sorry, your current browser doesn't support html5 or couldn't load specific audio file.
+      </audio>
+      <br><br>
+      <button id = "btn" onclick = "OnOff()">
+          Click here!
+      </button>
+      <script src = "OnOffBtn.js">
+          OnOff();
+      </script>
+      <br><br>
+      <video id = "player" controls>
+         <source src = "OtterPlaying.mp4" 
+         type = "video/mp4">
+         Sorry, your browser doesn't support video tag or couldn't find matching video file.
+      </video>
+    </body>
+</html>

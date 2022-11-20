@@ -1,0 +1,29 @@
+<html lang = "ko">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible"
+        content = "IE-Edge">
+        <title>On OFF Button</title>
+        <style>
+        </style>
+    </head>
+    <body>
+        <button id = "btn" onclick = "OnOff()">클릭</button>
+        <script>
+        var count = 0;
+            function OnOff()
+            {
+                var clk = document.getElementById('btn');
+                count++;
+                if(count % 2 == 1)
+                {
+                clk.innerText = 'On';
+                }
+                else
+                {
+                    clk.innerText = 'Off';
+                }
+            }
+        </script>
+    </body>
+</html>

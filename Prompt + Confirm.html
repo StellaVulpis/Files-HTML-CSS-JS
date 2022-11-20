@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <title>JS Prompt</title>
+        <meta charset = "UTF-8">
+    </head>
+    <body>
+        Hello!&nbsp;
+        <p id = "Name"></p>
+        <script type = "text/javascript">
+            var username;
+            var bool;
+            username = prompt("사용자의 이름을 입력해주세요.");
+            bool = window.confirm("진행하시겠습니까?");
+            if(bool == true)
+            {
+            alert(username + ", Hello World!");
+            var i;
+            document.getElementById("Name").innerHTML = "Welcome! " + username ;
+            }
+            else
+            {
+                document.body.innerHTML = "";
+            }
+    </script>
+    </body>
+</html>

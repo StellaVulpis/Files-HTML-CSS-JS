@@ -1,0 +1,26 @@
+<html lang = "ko">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible"
+        content = "IE-Edge">
+        <title>Add EventListener</title>
+        <style>
+        </style>
+    </head>
+    <body>
+        <button id = "btn">클릭</button>
+        <p id = "text"></p>
+        <script>
+            var selbtn = document.getElementById("btn");
+            var clcount = 0;
+            selbtn.addEventListener("click", innerText); // == onclick 
+            
+            function innerText()
+                {
+                    document.getElementById("text").innerHTML =
+                    "클릭 횟수: " + clcount;
+                    clcount++;
+                }
+        </script>
+    </body>
+</html>

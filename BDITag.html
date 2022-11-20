@@ -1,0 +1,51 @@
+
+<html lang = "ko">
+    <head>¬
+····<meta·charset·=·"utf-8">¬
+····<meta·http-equiv·=·"X-UA-Comatible"¬
+····content·=·"IE-Edge">¬
+····<title>BDI(Bi Directional Isolation)
+    </title>¬
+    <style>
+        #descr
+        {
+            font-style: italic;
+            font-size: 90%;
+        }
+        ul>li>bdi
+        {
+            list-style: none;
+        }
+    </style>
+    </head>¬
+    <body>
+        <p>
+            <h1>BDI 태그란?</h1>
+            BDI 태그는 아랍어와 같이 
+            오른쪽에서<br>왼쪽 방향으로 
+            진행되는 언어 등을 위해<br>
+            텍스트의 방향을 알수 없을 때,
+            유니코드의<br>양방향 알고리즘을
+            사용하여 텍스트를 처리한다.
+        </p>
+        <br>
+        <br>
+        <p id = "descr">
+        Texts below here was written
+        using BDI Tag.</p>
+        <ul>
+            <li>
+                <bdi>한국어 텍스트</bdi>
+            </li>
+            <li>
+                <bdi>English text</bdi>
+            </li>
+            <li>
+                <bdi>日本語文章</bdi>
+            </li>
+            <li>
+                <bdi>نص عربي</bdi>
+            </li>
+        </ul>
+    </body>
+</html>
