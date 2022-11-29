@@ -1,0 +1,65 @@
+body
+{
+background-image: url("https://static1.e621.net/data/69/86/6986326a8254544d633f3670e66b170b.png");
+background-size: contain;
+background-color: transparent;
+color: #fff;
+font-family: Nitw P1;
+margin: 0 auto;
+}
+a:not(a.active):not([role=button]):not(.wiki-link)
+{
+color: #00fef9;
+font-family: Nitw P1;
+}
+a.active
+{
+color: white;
+font-family: Nitw P1;
+}
+[role=button]
+{
+ color: #00fef9;
+}
+#content,
+#page,
+#edit_user_1267325
+{
+color: #1c2531;
+background-color: transparent;
+}
+h1
+{
+font-size: 0.95em;
+font-family: Nitw P1;
+}
+label,
+body
+{
+font-size: 1.2em;
+font-family: Nitw P1;
+}
+footer
+{
+ background-color: transparent;
+}
+@media screen and (max-width:360px) and (max-height: 772px)
+{
+body
+{
+font-size: 1em;
+background-size: contain;
+height:772px;
+width: 360px;
+}
+h1,
+h2,
+li,
+.wiki-link,
+.post-score,
+p,
+label
+{
+ color:white;
+}
+}
