@@ -1,3 +1,4 @@
+/* You can use this code on Settings > Advanced > Custom CSS Style section of e621. */
 body
 {
 background-image: url("https://static1.e621.net/data/69/86/6986326a8254544d633f3670e66b170b.png");
@@ -43,6 +44,7 @@ footer
 {
  background-color: transparent;
 }
+/* Mobile version support option (for Galaxy S22 Ultra) */
 @media screen and (max-width:360px) and (max-height: 772px)
 {
 body
