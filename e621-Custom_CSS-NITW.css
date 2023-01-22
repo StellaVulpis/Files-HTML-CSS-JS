@@ -8,7 +8,7 @@ color: #fff;
 font-family: Nitw P1;
 margin: 0 auto;
 }
-#edit-options, a:not(a.active):not(.button.btn-warn):any-link 
+#edit-options, a:not(a.active):not(.button.btn-warn):any-link, .dtext-formatter-tabs>a
 {
 color: #00fef9;  
 font-family: Nitw P1;
