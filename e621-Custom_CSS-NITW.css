@@ -8,9 +8,9 @@ color: #fff;
 font-family: Nitw P1;
 margin: 0 auto;
 }
-a:not(a.active):not([role=button]):not(.wiki-link)
+#edit-options, a:not(a.active):not(.button.btn-warn):any-link 
 {
-color: #00fef9;
+color: #00fef9;  
 font-family: Nitw P1;
 }
 a.active
@@ -26,7 +26,7 @@ font-family: Nitw P1;
 #page,
 #edit_user_1267325
 {
-color: #1c2531;
+
 background-color: transparent;
 }
 h1
@@ -44,7 +44,6 @@ footer
 {
  background-color: transparent;
 }
-/* Mobile version support option (for Galaxy S22 Ultra) */
 @media screen and (max-width:360px) and (max-height: 772px)
 {
 body
@@ -53,15 +52,5 @@ font-size: 1em;
 background-size: contain;
 height:772px;
 width: 360px;
-}
-h1,
-h2,
-li,
-.wiki-link,
-.post-score,
-p,
-label
-{
- color:white;
 }
 }
